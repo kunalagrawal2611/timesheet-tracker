@@ -1,0 +1,6 @@
+{
+  "name": "Timesheet Tracker",
+  "description": "Minimalist timesheet app to track project hours, work trends, export reports, and sync across platforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

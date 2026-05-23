@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clock Outer Ring -->
+    <path
+        android:pathData="M54,26C38.54,26 26,38.54 26,54C26,69.46 38.54,82 54,82C69.46,82 82,69.46 82,54C82,38.54 69.46,26 54,26ZM54,76C41.85,76 32,66.15 32,54C32,41.85 41.85,32 54,32C66.15,32 76,41.85 76,54C76,66.15 66.15,76 54,76Z"
+        android:fillColor="#2DD4BF" />
+    
+    <!-- Stopwatch Top Button -->
+    <path
+        android:pathData="M50,18h8v5h-8z"
+        android:fillColor="#2DD4BF" />
+
+    <!-- Clock Hands (Hour & Minute) -->
+    <path
+        android:pathData="M52,38h4v16h10v4h-14z"
+        android:fillColor="#F1F5F9" />
+
+    <!-- Style Checkmark Accompanying Success -->
+    <path
+        android:pathData="M66,66l4,4l8,-8"
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
