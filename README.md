@@ -12,7 +12,7 @@ A simple and efficient Android application to track your working hours and manag
 ## Download APK
 
 You can download the latest version of the app as an APK file from the project directory:
-- [Download Release APK](app/build/outputs/apk/release/app-release-unsigned.apk) (Unsigned)
+- [Download Release APK](app/build/outputs/apk/release/app-release.apk) (Signed)
 
 ## Run Locally
 
