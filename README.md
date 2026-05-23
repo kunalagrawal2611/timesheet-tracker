@@ -1,21 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Timesheet Tracker
 
-# Run and deploy your AI Studio app
+A simple and efficient Android application to track your working hours and manage project-based timesheets.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/8ff83da3-4316-476b-a891-bec61f28c8f5
+- **Project Management**: Create and manage multiple projects.
+- **Time Tracking**: Easily clock in and out of tasks.
+- **Manual Entries**: Add or edit timesheet entries manually.
+- **History & Reports**: View your daily working entries and overall history.
 
 ## Run Locally
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+**Prerequisites:** [Android Studio](https://developer.android.com/studio)
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kunalagrawal2611/timesheet-tracker.git
+   ```
+2. **Open in Android Studio**: Select **Open** and choose the directory containing this project.
+3. **Configure API Key**:
+   - Create a file named `.env` in the project root directory.
+   - Add your Gemini API key: `GEMINI_API_KEY=your_api_key_here`. (Refer to `.env.example` for the format).
+4. **Build and Run**:
+   - Allow Android Studio to sync Gradle and download dependencies.
+   - Run the app on an emulator or a physical device.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## Building the APK
+
+To build a release APK, run the following command in the terminal:
+```bash
+./gradlew :app:assembleRelease
+```
+The generated APK will be located at `app/build/outputs/apk/release/app-release-unsigned.apk`.
+
+---
+*Note: This project uses a conditional signing configuration. If no keystore file is provided, the build will produce an unsigned APK.*
