@@ -1,4 +1,4 @@
-# Timesheet Tracker
+# Timesheet Tracker (Android)
 
 A simple and efficient Android application to track your working hours and manage project-based timesheets.
 
@@ -8,6 +8,11 @@ A simple and efficient Android application to track your working hours and manag
 - **Time Tracking**: Easily clock in and out of tasks.
 - **Manual Entries**: Add or edit timesheet entries manually.
 - **History & Reports**: View your daily working entries and overall history.
+
+## Download APK
+
+You can download the latest version of the app as an APK file from the project directory:
+- [Download Release APK](app/build/outputs/apk/release/app-release-unsigned.apk) (Unsigned)
 
 ## Run Locally
 
