@@ -1753,13 +1753,7 @@ fun ReportsTab(viewModel: TimesheetViewModel, allEntries: List<TimesheetEntry>) 
             }
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
 
-        Text(
-            text = "User Email Session: bloodshredder05@gmail.com",
-            fontSize = 10.sp,
-            color = MaterialTheme.colorScheme.secondary.copy(alpha = 0.7f)
-        )
     }
 }
 
